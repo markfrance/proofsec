@@ -30,8 +30,8 @@ function Home({ openModal }) {
           </p>
           <div className="checklist">
             <div className="checklist-item">
-              <span className="checkmark">✅</span>
-              <span>Prevent costly exploits</span>
+            <span className="checkmark">✅</span>
+            <span>Prevent costly exploits</span>
             </div>
             <div className="checklist-item">
               <span className="checkmark">✅</span>
@@ -117,7 +117,7 @@ function Home({ openModal }) {
           <p className="section-text">
             Download a redacted sample audit report to understand our methodology and deliverables.
           </p>
-          <img src="./ProofsecAuditExample.png" alt="Sample Report" className="sample-report-image" />
+          <img src="./ProofsecAuditExample.png" width="50%" height="auto" alt="Sample Report" className="sample-report-image" />
         </div>
       </section>
 
