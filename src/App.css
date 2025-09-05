@@ -149,6 +149,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #07adfa;
 }
 
+.nav-link {
+  background: none;
+  border: none;
+  color: #cccccc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -420,6 +432,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #07adfa;
 }
 
+.footer-link {
+  background: none;
+  border: none;
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+}
+
 .footer-social {
   display: flex;
   gap: 1rem;
@@ -458,6 +481,97 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(7, 173, 250, 0.2);
   margin-top: 2rem;
+}
+
+/* Privacy Policy Styles */
+.privacy-policy {
+  min-height: 100vh;
+  padding: 8rem 0 4rem;
+  background: #030d23;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.privacy-content h1 {
+  font-size: 3rem;
+  color: #07adfa;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #07adfa, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.last-updated {
+  text-align: center;
+  color: #a0a0a0;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.privacy-content section {
+  margin-bottom: 3rem;
+}
+
+.privacy-content h2 {
+  font-size: 1.8rem;
+  color: #07adfa;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(7, 173, 250, 0.2);
+  padding-bottom: 0.5rem;
+}
+
+.privacy-content h3 {
+  font-size: 1.3rem;
+  color: #cccccc;
+  margin: 1.5rem 0 1rem;
+}
+
+.privacy-content p {
+  color: #cccccc;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.privacy-content ul {
+  color: #cccccc;
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.privacy-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.privacy-content strong {
+  color: #07adfa;
+}
+
+.contact-info {
+  background: #0a1a3a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(7, 173, 250, 0.2);
+  margin-top: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+.contact-info a {
+  color: #07adfa;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 /* Modal Styles */
