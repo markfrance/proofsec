@@ -380,6 +380,72 @@ h1, h2, h3, h4, h5, h6 {
   color: #07adfa;
 }
 
+/* Methodology Section */
+.methodology {
+  padding: 5rem 0;
+  background: #030d23;
+}
+
+.methodology-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.methodology-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #0a1a3a;
+  border: 1px solid rgba(7, 173, 250, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.methodology-step:hover {
+  border-color: rgba(7, 173, 250, 0.3);
+  box-shadow: 0 5px 20px rgba(7, 173, 250, 0.1);
+  transform: translateY(-2px);
+}
+
+.step-number {
+  background: linear-gradient(135deg, #07adfa, #030d23);
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(7, 173, 250, 0.3);
+}
+
+.step-content {
+  flex: 1;
+}
+
+.methodology .step-title {
+  font-size: 1.4rem;
+  color: #07adfa;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.step-description {
+  color: #cccccc;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0;
+}
+
 /* Sample Report Section */
 .sample-report {
   padding: 5rem 0;
@@ -739,6 +805,16 @@ h1, h2, h3, h4, h5, h6 {
   
   .process-timeline {
     flex-direction: column;
+  }
+  
+  .methodology-step {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .step-number {
+    align-self: center;
   }
   
   .footer-content {

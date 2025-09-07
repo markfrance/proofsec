@@ -110,6 +110,63 @@ function Home({ openModal }) {
         </div>
       </section>
 
+      {/* Methodology */}
+      <section id="methodology" className="methodology">
+        <div className="container">
+          <h2 className="section-title">Our Audit Methodology</h2>
+          <p className="section-text">
+            We follow a rigorous 5-step process to ensure comprehensive security analysis of your smart contracts.
+          </p>
+          <div className="methodology-steps">
+            <div className="methodology-step">
+              <div className="step-number">1</div>
+              <div className="step-content">
+                <h3 className="step-title">Gather Scope</h3>
+                <p className="step-description">
+                  Collect code, documentation, and intended use cases to understand the complete system architecture and requirements.
+                </p>
+              </div>
+            </div>
+            <div className="methodology-step">
+              <div className="step-number">2</div>
+              <div className="step-content">
+                <h3 className="step-title">Run Automated Checks</h3>
+                <p className="step-description">
+                  Static analysis for common issues including reentrancy, overflows, and unsafe calls using industry-standard tools.
+                </p>
+              </div>
+            </div>
+            <div className="methodology-step">
+              <div className="step-number">3</div>
+              <div className="step-content">
+                <h3 className="step-title">Manual Code Review</h3>
+                <p className="step-description">
+                  Line-by-line inspection for logic flaws, role management, gas inefficiencies, and comprehensive testing of all known attack vectors.
+                </p>
+              </div>
+            </div>
+            <div className="methodology-step">
+              <div className="step-number">4</div>
+              <div className="step-content">
+                <h3 className="step-title">Draft Audit Report</h3>
+                <p className="step-description">
+                  Provide vulnerabilities ranked by severity with detailed recommended fixes and implementation guidance.
+                </p>
+              </div>
+            </div>
+            <div className="methodology-step">
+              <div className="step-number">5</div>
+              <div className="step-content">
+                <h3 className="step-title">Deliver & Revise</h3>
+                <p className="step-description">
+                  Deliver final audit PDF. Apply revisions if fixes are made and perform recheck to ensure all issues are resolved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Sample Report */}
       <section id="sample" className="sample-report">
         <div className="container">
