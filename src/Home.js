@@ -7,9 +7,11 @@ function Home({ openModal }) {
       <section id="home" className="hero">
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title">Smart Contract Security You Can Trust</h1>
+            <h1 className="hero-title">Smart Contract Security Audits You Can Trust</h1>
             <p className="hero-subtitle">
-              Independent blockchain audits with enterprise-grade methodology, delivered fast and at a fraction of the cost of big firms.
+              Professional blockchain security audits with enterprise-grade methodology. 
+              Independent smart contract reviews delivered fast and at a fraction of the cost of big firms. 
+              Secure your DeFi, NFT, and Web3 projects with our comprehensive security analysis.
             </p>
             <button className="cta-button hero-cta" onClick={openModal}>🔒 Request an Audit</button>
           </div>
