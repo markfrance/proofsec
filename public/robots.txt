@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://proofsec.com/sitemap.xml
+Sitemap: https://proofsec.xyz/sitemap.xml
