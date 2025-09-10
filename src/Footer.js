@@ -20,6 +20,8 @@ function Footer() {
           <div className="footer-social">
             <a href="https://x.com/proof_sec" className="social-link" target="_blank" rel="noopener noreferrer">X</a>
             <a href="https://www.linkedin.com/company/proofsecxyz" className="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://www.youtube.com/@proof_sec" className="social-link" target="_blank" rel="noopener noreferrer">YouTube</a>
+
 
             
           </div>
